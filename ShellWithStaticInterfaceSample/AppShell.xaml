@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ShellWithStaticInterfaceSample.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ShellWithStaticInterfaceSample"
+    Shell.FlyoutBehavior="Disabled"
+    Title="ShellWithStaticInterfaceSample">
+
+    <ShellContent Title="Main Page" Route="MainPage" ContentTemplate="{DataTemplate local:MainPage}" />
+    <ShellContent Title="Second Page" Route="SecondPage" ContentTemplate="{DataTemplate local:SecondPage}" />
+
+</Shell>
